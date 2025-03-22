@@ -1,6 +1,3 @@
-// This code is used to receive signals from Blynk or the phone application (optional: using distance sensor) to take photos and send photos to the AI ​​server
-// If the response status is OK, send a signal to Blynk so that BLynk can send it to ESP32 to open the door (servo)
-// If the response status is ERR, send a signal to Blynk so that BLynk can send it to ESP32 to warn (buzzer) and the app
 #define BLYNK_TEMPLATE_ID "TMPL6xvko5eN7"
 #define BLYNK_TEMPLATE_NAME "FaceDetection"
 #define BLYNK_AUTH_TOKEN "5ARTFPWoKi31LkWFoZoEMHxKAYz_FDR0"
@@ -15,8 +12,8 @@
 #include <BlynkSimpleEsp32.h>
 #include <ArduinoJson.h>
 
-char ssid[] = "Bitco";
-char pass[] = "0905931912";
+char ssid[] = "User_Wifi_name";
+char pass[] = "User_Wifi_pass";
 
 
 
